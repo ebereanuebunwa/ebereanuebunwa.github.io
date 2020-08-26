@@ -1,0 +1,328 @@
+
+header {
+	/*background-image: url(colorburst.jpg);
+	background-size: cover;*/
+	/*background-color: rgba(3, 9, 43, 0.808);*/
+	border-radius: 30px;
+}
+
+.intro {
+	display: block;
+	margin:  50px 45px 0px 45px;
+	border: 2px solid white;
+	padding: 10px 10px 50px 10px;
+	border-radius: 50px;
+	background-color: rgba(9, 2, 37, 0.9);
+	/*background-image: url(jon-r8AFUpRp0J0-unsplash.jpg);
+	background-size: auto;*/
+}
+
+.intro-text{
+	height: 250px;
+	color: white;
+	text-align: center;
+	font-family: Lucida Grande;
+	font-size: 1.2rem;
+	line-height: 1.3;
+	
+}
+
+.intro-text > h3 {
+	display: block;
+	color: white;
+	background-color: rgba(225, 0, 173, 0.5);
+	border: 3px solid white;
+	padding: 8px ;
+	border-radius : 50px;
+	margin: 0px 120px 0px 120px;	
+
+
+}
+
+h2 {
+	color: white;
+	cursor: pointer;
+}
+
+.introtext> h3, h2 {
+	text-align: center;
+}
+
+.line {
+	display: flex;
+	flex-direction: row;
+	margin: 60px;
+	padding: 2px;
+	background-color: rgba(196, 196, 196, 0.253);
+	border-radius: 2px;
+}
+
+
+
+.top-mix {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline ;
+	justify-content: center;
+	
+}
+
+.topleft {
+	background-color: purple;
+	width: 300px;
+	height: 300px;
+	border-radius: 30px 30px 30px 30px;
+	padding: 15px 15px 15px 25px;
+	display: block;
+
+}
+.civil_engr {
+	background-image: url(karl-bewick-WrULV748Mms-unsplash.jpg);
+	width: 100%;
+	height: 200px;
+	border-radius: 40px 40px 40px 40px;
+	background-size: cover;
+}
+
+.topmiddle {
+	background-color: rgba(89, 0, 52, 0.589);
+	width: 300px;
+	height: 500px;
+	border-radius: 40px 40px 40px 40px;
+	padding: 20px;
+	
+}
+.good_music {
+	background-image: url(austin-neill-hgO1wFPXl3I-unsplash.jpg);
+	width: 100%;
+	height: 250px;
+	border-radius: 40px 40px 40px 40px;
+	background-size: cover;
+}
+
+
+.topright {
+	background-color: indigo;
+	width: 300px;
+	border-radius: 40px 40px 40px 40px;
+	height: 350px;
+	padding: 15px 15px 15px 22px;
+}
+
+.IT_stuff {
+	background-image: url(dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg);
+	width: 250px;
+	height: 200px;
+	border-radius: 40px 40px 40px 40px;
+	background-size: cover;
+}
+
+
+.topleft, .topmiddle, .topright {
+	box-shadow: -1rem 0 3rem #000;
+	/*transition: all 3s;
+	transform: scale(1.1);*/
+	cursor: pointer;
+}
+
+
+.topleft:hover {
+	width: 350px;
+	height: 400px;
+}
+
+.topmiddle:hover {
+	width: 350px;
+
+}
+
+.topright:hover {
+	width: 350px;
+	height: 400px;
+}
+
+
+.phase2 {
+	padding: 10px;
+	margin: 50px;
+	border: 2px solid white;
+	border-radius: 50px;
+	font-family: Comic Sans, Comic Sans MS, cursuve;
+	color: white;
+	text-align: center;
+	background-image: url(purpleabstract.jpg);
+	line-height: 0.5;
+	font-weight: 10px;
+
+
+}
+
+
+.phase3 {
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	background-image: url(kai-pilger-Ef6iL87-vOA-unsplash.jpg);
+	background-size: cover;
+	border-radius: 50px 50px 0px 0px;
+
+}
+
+.design_tabs {
+	margin: 20px 50px 20px 50px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	border-radius: 50px 50px 50px 50px;
+}
+
+
+.tab_1 {
+	width: 100%;
+
+}
+
+.tab_2 {
+	position: relative;
+	left: 12.5%;
+	width: 75%;
+}
+
+.tab_3 {
+	position: relative;
+	left: 25%;
+	width: 50%;
+	
+}
+
+.tab_1, .tab_2, .tab_3 {
+	height: 50px;
+	border-radius: 25px;
+	border: 50px;
+	margin: 100px 0px 0px 0px;
+	background-color: rgba(155, 6, 120, 0.5);
+}
+
+.mini_cards {
+	display: flex;
+	margin: 100px 50px 50px 50px;
+	padding: 20px 0px 20px 0px;
+	flex-direction: row;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+	align-items: start;
+	border-radius: 50px;
+}
+
+
+.mini_cards::-webkit-scrollbar {
+	background: rgba(216, 97, 188, 0.5);
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	white-space: nowrap;
+}
+
+.mini_cards::-webkit-scrollbar-thumb {
+	width: 10px;
+	height: 10px;
+	background: rgba(71, 2, 54, 0.9);
+	border-radius: 10px;
+}
+
+
+.phase_i {
+	background-image: url(alex-perez-pEgsWN0kwbQ-unsplash.jpg) ;
+	background-size: auto;
+	
+}
+
+.phase_iii {
+	background-image: url(downloadone.jpg);
+	background-size: auto;
+}
+
+.phase_v {
+	background-image: url(images.jpg);
+	background-size: auto;
+}
+
+.phase_ii,  .phase_iv, .phase_vi {
+	background-color: rgba(17, 8, 36, 0.234);
+	border: 1.5px rgba(200, 240, 233, 0.234);
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+
+.phase_i, .phase_ii, .phase_iii, .phase_iv, .phase_v, .phase_vi {
+	min-width: 290px;
+	height: 400px;
+	padding: 3rem;
+	border-radius: 50px;
+	-webkit-box-shadow: -1rem 0 3rem #000;
+	box-shadow: -1rem 0 3rem #000;
+	cursor: pointer;
+}
+
+.block_image {
+	width: 300px;
+	height: 300px;
+	border-radius: 50px 50px 20px 20px;
+	background-image: url(bekir-donmez-eofm5R5f9Kw-unsplash.jpg);
+	background-size: cover;
+}
+
+.end_note {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+.books_image {
+	width: 300px;
+	height: 350px;
+	border: 2px solid purple;
+	border-radius: 50px 50px 50px 0;
+	background-image: url(surface-hhcg8ugTWtY-unsplash.jpg);
+	background-size: cover;
+}
+
+.art_image {
+	width: 300px;
+	height: 300px;
+	border: 1.5px solid white;
+	border-radius: 50px 50px 50px 0;
+	background-image: url(dimitar-belchev-fRBpWLAcWIY-unsplash.jpg);
+	background-size: cover;
+}
+
+
+
+.bottom-container {
+	background-color: black;
+	display: block;
+	text-align: left;
+	color: white;
+	padding: 100px 50px 10px 50px ;
+	line-height: 2px;
+}
+
+ .division {
+	/*background-color: rgba(255, 43, 6, 0.9);*/
+	justify-content: flex-end;
+	background-image: url(abstractorange.jpg);
+	background-size: auto;
+	width: 200px;
+	height: 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.bottom-container > h3 {
+	font-family: Georgia, serif;
+}
+
+.endnote {
+	padding: 5px;
+
+}
